@@ -34,3 +34,12 @@ print(float(an_actual-varsta_ta))
 numarul_tau = int(input('Spune un numar'))
 rest = numarul_tau % 2
 verificare_paritate = print('Este impar?', bool(rest))
+
+
+#ultimul exercitiu
+a=int(input('Adauga nr secunde:'))
+ore=a//3600
+rest_secunde=a%3600
+minute=rest_secunde//60
+secunde=a%60
+print('Rezultat', ore, 'ore', '.', minute, 'minute', '.', 'secunde', secunde)
