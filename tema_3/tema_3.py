@@ -1,19 +1,18 @@
-nume_utilizator = 'ioana2025'
-parola = '12345678'
+username_correct = 'ioana2025'
+password_correct = '12345678'
 
-cere_username = str(input('Care este numele tau de utilizator?'))
-cere_parola = str(input('Care e parola ta?'))
+#incepe cu cel mai relevant nume
+username_required = str(input('Care este numele tau de utilizator?'))
+password_required = str(input('Care e parola ta?'))
 
-if cere_username == nume_utilizator and cere_parola == parola:
+if username_required == username_correct and password_correct == password_required:
     print('Acces permis')
 
-elif cere_username != nume_utilizator and cere_parola != parola:
+elif username_required != username_correct and password_required!= password_correct:
     print('Acces respins')
 
-elif cere_username != nume_utilizator or cere_parola == parola:
+else:
     print('User/Password incorect')
 
-elif cere_username == nume_utilizator or cere_parola != parola:
-    print('User/Password incorect')
 
 
