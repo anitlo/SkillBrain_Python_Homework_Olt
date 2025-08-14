@@ -14,5 +14,8 @@ elif username_required != username_correct and password_required!= password_corr
 else:
     print('User/Password incorect')
 
+#git checkout -b tema_3 - asa fac branch nou in git. branch ul din tema 3 a luat tot ce era in main
+#git switch - alternative git checkout 
+
 
 
