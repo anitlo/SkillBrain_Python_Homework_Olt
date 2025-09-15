@@ -17,8 +17,8 @@ for index, cantec in enumerate(playlist, start=1):
 print ('\nVarianta 2:\n')
 
 playlist = ('Cold', 'Paradise', 'Amigo', 'Higher')
-numar = 1 # Inițializăm un contor care va ține evidența numerelor (începem de la 1)
+numar = 1 # Inițializăm un contor care va tine evidenta numerelor (incepem de la 1)
 
 for cantec in playlist:
-    print(f"{numar}. {cantec}") # Afișăm contorul și melodia curentă
+    print(f"{numar}. {cantec}") # Afisăm contorul și melodia curentă
     numar += 1 # Creștem contorul cu 1 pentru următoarea melodie
