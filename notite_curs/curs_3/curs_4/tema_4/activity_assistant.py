@@ -81,15 +81,15 @@ for prieten in lista_prieteni:
 
 #afiseaza lista din nou dupa modificare
 for prieten in lista_prieteni:  # fiecare element este un dicționar
-    print(prieten)               # afișează dicționarul complet
+    print(prieten)              
 
-#Creează un set cu toate hobbyurile unice și afișează
+#Creează un set cu toate hobbyurile unice si afisează
 # Creează un set gol
 hobbyuri_unice = set()
 
-# Parcurge fiecare prieten și adaugă hobbyurile în set
+# Parcurge fiecare prieten si adaugă hobbyurile in set
 for prieten in lista_prieteni:
     hobbyuri_unice.update(prieten["hobbyuri"])  # update() adaugă toate elementele din listă în set
 
-# Afișează setul cu hobbyuri unice
+# Afisează setul cu hobbyuri unice
 print("Hobbyuri unice:", hobbyuri_unice)
