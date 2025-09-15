@@ -9,7 +9,7 @@ produs_3 = input('Al treilea produs dorit:')
 
 shopping_list = [produs_1, produs_2, produs_3]
 for produs in shopping_list:
-    print(f"Ai cumpărat: {produs}")
+    print(f"Ai cumparat: {produs}")
 
 
 #alta varianta mai jos
