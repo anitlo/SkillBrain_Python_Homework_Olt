@@ -91,5 +91,8 @@ hobbyuri_unice = set()
 for prieten in lista_prieteni:
     hobbyuri_unice.update(prieten["hobbyuri"])  # update() adaugă toate elementele din listă în set
 
+#ce face update() mai exact? Ia fiecare element dintr-o lista (sau tuplu, sau alt set) si il adaugă in set.
+#update() deschide lista, ia fiecare element pe rand si ne arata setul la final
+
 # Afisează setul cu hobbyuri unice
 print("Hobbyuri unice:", hobbyuri_unice)
