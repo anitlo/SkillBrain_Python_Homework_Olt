@@ -21,4 +21,4 @@ numar = 1 # Inițializăm un contor care va tine evidenta numerelor (incepem de 
 
 for cantec in playlist:
     print(f"{numar}. {cantec}") # Afisăm contorul și melodia curentă
-    numar += 1 # Creștem contorul cu 1 pentru următoarea melodie
+    numar += 1 # Crestem contorul cu 1 pentru următoarea melodie
