@@ -47,38 +47,38 @@ def adauga_produs():
 
 def afiseaza_produse():
     """
-    Afișează toate produsele din lista de cumpărături
+    Vezi toate produsele din lista de cumparaturi
     """
     if not cos_cumparaturi:
-        print("⚠️ Lista este goală.")
+        print("!!! Lista este goala.")
     else:
-        print("🛒 Ai cumpărat:", ", ".join(cos_cumparaturi))
+        print(" Ai cumparat:", ", ".join(cos_cumparaturi)) #ca sa fie in sir una dupa alta
 
 def cauta_produs():
     """
-    Caută un produs în listă
+    Cauta un produs in lista
     """
-    produs = input("Ce produs cauți? ")
+    produs = input("Ce produs cauti? ")
     if produs in cos_cumparaturi:
-        print(f"✅ {produs} se află în listă.")
+        print(f" {produs} se află în lista.")
     else:
-        print(f"❌ {produs} nu este în listă.")
+        print(f" {produs} nu este în lista.")
 
 def sterge_produs():
     """
-    Șterge un produs din listă, dacă există
+    sterge un produs din lista, dacă exista
     """
-    produs = input("Introdu produsul de șters: ")
+    produs = input("Introdu produsul de sters: ")
     if produs in cos_cumparaturi:
         cos_cumparaturi.remove(produs)
-        print(f"🗑️ {produs} a fost șters din coș.")
+        print(f" {produs} a fost sters din cos.")
     else:
-        print(f"⚠️ {produs} nu există în listă.")
+        print(f" {produs} nu există in lista.")
 
-# === Program Principal ===
+# === CUM MERGE PROGRAMUL ===
 while True:
     afiseaza_meniu()
-    optiune = input("Alege opțiunea: ")
+    optiune = input("Alege optiunea: ")
 
     if optiune == "1":
         adauga_produs()
@@ -89,7 +89,7 @@ while True:
     elif optiune == "4":
         sterge_produs()
     elif optiune == "5":
-        print("👋 La revedere!")
+        print(" La revedere!")
         break
     else:
-        print("⚠️ Opțiune invalidă, încearcă din nou.")
+        print(" Optiune invalidă, incearcă din nou.")
