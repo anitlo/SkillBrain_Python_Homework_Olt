@@ -1,0 +1,17 @@
+IT SERVICE AGREEMENT
+
+PARTIES
+1.1. Provider: Tech Solutions Ltd.
+1.2. Client: Acme Corp.
+
+DATA PROCESSING
+2.1. Provider shall process “personal data” only with explicit “consent” of data subjects.
+2.2. Data will not be retained “in perpetuity” and will be deleted upon request (“right to erasure”).
+2.3. In case of a “data breach,” Provider will notify Client within 72 hours.
+
+PURPOSE LIMITATION
+3.1. Personal data may be used only for the purposes agreed in writing, never “for any purpose” outside that scope.
+
+SECURITY
+4.1. Provider implements “appropriate technical and organizational measures” to protect data.
+
