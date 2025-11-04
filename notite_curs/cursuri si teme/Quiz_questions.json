@@ -1,0 +1,58 @@
+{
+  "quiz_personal_questions": [
+    {
+      "quiz_id": "QuizID",
+      "question_type": "code_snippet",
+      "question_text": "Imaginează-ți că am creat clasa \"Student\" cu metoda __init__(self, name). Cum creăm corect un obiect d din această clasă?",
+      "code_snippet": "class Student:\\n    def __init__(self, name):\\n        self.name = name",
+      "options": [
+        {"id": "a", "text": "d = Student"},
+        {"id": "b", "text": "d = Student(\"Ana\")"},
+        {"id": "c", "text": "d(Student)"},
+        {"id": "d", "text": "__init__(\"Student\") = d"}
+      ],
+      "correct_answer": "b",
+      "explanation": "Pentru a crea un obiect, trebuie apelat constructorul clasei împreună cu argumentul cerut (numele). Doar varianta b este corectă.",
+      "points": 1,
+      "difficulty": "easy",
+      "chapter": "Classes & Objects",
+      "order_index": 1
+    },
+    {
+      "quiz_id": "QuizID",
+      "question_type": "code_snippet",
+      "question_text": "Ce va afișa următorul cod?",
+      "code_snippet": "bomboane = [\"menta\", \"capsuni\", \"lamaie\"]\\nprint(bomboane[1])",
+      "options": [
+        {"id": "a", "text": "menta"},
+        {"id": "b", "text": "capsuni"},
+        {"id": "c", "text": "lamaie"},
+        {"id": "d", "text": "[\"capsuni\"]"}
+      ],
+      "correct_answer": "b",
+      "explanation": "List indexing începe de la 0, deci bomboane[1] este al doilea element: \"capsuni\".",
+      "points": 1,
+      "difficulty": "easy",
+      "chapter": "Lists & Indexing",
+      "order_index": 2
+    },
+    {
+      "quiz_id": "QuizID",
+      "question_type": "theoretical",
+      "question_text": "Cum creezi o listă goală?",
+      "code_snippet": null,
+      "options": [
+        {"id": "a", "text": "[]"},
+        {"id": "b", "text": "{}"},
+        {"id": "c", "text": "()"},
+        {"id": "d", "text": "None"}
+      ],
+      "correct_answer": "a",
+      "explanation": "O listă goală se creează cu paranteze drepte []. {} creează un dicționar, () un tuplu.",
+      "points": 1,
+      "difficulty": "easy",
+      "chapter": "Lists",
+      "order_index": 3
+    }
+  ]
+}
